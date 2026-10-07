@@ -1,0 +1,21 @@
+{
+  "name": "vulcanizadora-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio de Vulcanizadora Express con autenticación y agenda de servicios en MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.9.5"
+  }
+}
